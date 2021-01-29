@@ -34,3 +34,23 @@ There are a lot of advantages to use SQLite as an application file format:
    SQLite Disadvantages
    SQLite is used to handle low to medium traffic HTTP requests.
    Database size is restricted to 2GB in most cases.
+
+Sample sqlite
+
+- Here The application has projects, each project can have one or more tasks to complete
+- Here we need a projects table as well as a tasks table.
+- Projects table
+  id name
+  1 Write node js sqlite
+
+- tasks table
+  id name description isCompleted projectId
+  1 Outline High level overview of sections 1 1  
+  2 Write Write article contents 0 1
+
+- Traslating this to the code.
+- The sqlite3 Node.js package gives a handful of different methods for executing queries, but the ones I will be focusing on in this tutorial are:
+
+run: used to create or alter tables and to insert or update table data
+get: select a single row of data from one or more tables
+all: select multiple rows of data from one or more tables

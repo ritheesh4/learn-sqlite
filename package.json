@@ -1,0 +1,23 @@
+{
+  "name": "learn-sqlite",
+  "version": "1.0.0",
+  "description": "Learn sqlite",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritheesh4/learn-sqlite.git"
+  },
+  "author": "Ritheesh Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritheesh4/learn-sqlite/issues"
+  },
+  "homepage": "https://github.com/ritheesh4/learn-sqlite#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "sqlite3": "^5.0.1"
+  }
+}
